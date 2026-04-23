@@ -6,7 +6,7 @@ import random
 def process_command(user_query, immune_system):
     """Advanced Neural Processor for Sovereign OS Pro."""
     query = user_query.lower().strip()
-    
+
     if "clear" in query:
         st.session_state.security_logs = []
         st.success("Neural Interface Reset.")
