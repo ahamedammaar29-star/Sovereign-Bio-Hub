@@ -6,3 +6,6 @@ plotly
 tqdm
 google-generativeai
 PyPDF2
+biopython
+streamlit-webrtc
+pydub
