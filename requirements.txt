@@ -7,9 +7,3 @@ tqdm
 scikit-learn
 matplotlib
 seaborn
-biopython
-google-generativeai
-PyPDF2
-streamlit-webrtc
-pydub
-google-cloud-speech
