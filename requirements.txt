@@ -4,8 +4,6 @@ numpy
 yfinance
 plotly
 tqdm
-google-generativeai
-PyPDF2
-biopython
-streamlit-webrtc
-pydub
+scikit-learn
+matplotlib
+seaborn
