@@ -16,7 +16,7 @@ if 'chat_history' not in st.session_state: st.session_state.chat_history = []
 
 # --- Gemini Setup ---
 try:
-    genai.configure(api_key=userdata.get('GOOGLE_API_KEY'))
+    genai.configure(api_key=st.secrets['GOOGLE_API_KEY'])
     model = genai.GenerativeModel('gemini-1.5-flash')
 except: model = None
 
